@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # Install required packages
-sudo apt install -y apache2 php mysql-server php-mysql unzip
+sudo apt install -y apache2 php mysql-server php-mysql php-mbstring php-pdo php-xml php-gd unzip
 
 # Download LimeSurvey
 wget https://download.limesurvey.org/latest-master/limesurvey6.5.3+240415.zip
